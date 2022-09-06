@@ -1,0 +1,135 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: uwu;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: owo;
+    src: url(fonts/Clydesdale-Medium.ttf);
+}
+
+header
+{
+    background-color: rgb(33, 33, 33);
+    color: #dcdddd;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, #ebebeb 0%, #000000 100%) 1;
+}
+
+#container
+{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: uwu;
+}
+
+label
+{
+
+    font-weight: bold;
+}
+
+a
+{
+    color: #dcdddd;
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+}
+
+p
+{
+    margin: 10px;
+}
+
+.btn
+{
+    height: 30px;
+    background-color: #3acfd5;
+    color: aliceblue;
+    border-color: #000;
+    box-shadow: 5px 5px black;
+    font-size: 20px;
+}
+
+.XD
+{
+    width: 67%;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+}
+
+.row
+{
+    display: flex;
+}
+.col
+{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(98, 176, 168);
+    width: 100%;
+    color: rgb(234, 234, 234);
+}
+
+.col-2
+{
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(98, 176, 168);
+    width: 100%;
+    color: rgb(234, 234, 234);
+}
+
+.col-3
+{
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(98, 176, 168);
+    width: 100%;
+    color: rgb(234, 234, 234);
+}
+
+.boxes
+{
+    display: flex;
+}
+
+.xob, .xob-2
+{
+    margin-top: 1.2vh;
+    width: 30vh;
+    height: 7vh;
+    top: 50px;
+    border: transparent;
+    border-radius: 0%;
+    background-color: #1472A5;
+    color: #fff;
+    font-size: 50px;
+    font-family: owo;
+}
+
+.xob-2
+{
+    margin-left: 1.5vh;
+}
